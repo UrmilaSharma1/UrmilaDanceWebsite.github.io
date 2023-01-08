@@ -1,0 +1,20 @@
+//- layout.pug
+html
+  head
+    title Anupma Dance Academy
+    block scripts
+    block style
+body
+    nav#navbar 
+        ul 
+            div#logo 
+                img(src="../static/logo.png", alt="Logo")
+                |ADA
+            li #[a(href='/') Home ]
+            li #[a(href='/') About] 
+            li #[a(href='/') Services]
+            li #[a(href='/') Plans]
+            li #[a(href='/contact') Contact Us]
+    block content
+    footer#footer 
+        | Copyright @2022. AnupmaDanceAcademy.com | All Rights Reserved

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: rgb(169, 94, 94);
+    /* padding: 15px 5px; */
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-right: 40px;
+    margin-left:15px;
+    font-size: 1.1rem;
+}
+#logo img{
+    height:60px;
+}
+li{
+    list-style: none
+}
+#navbar a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 10px 25px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+#navbar a:hover{
+    color: black;
+}
+#introsection{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: center / cover no-repeat url("../static/bg1.jpeg")
+    /* background-color: tomato; */
+}
+#introsection h1{
+    font-size:2rem;
+    padding-bottom: 10px;
+}
+#introsection p{
+    font-size: 1.4rem;
+}
+
+#mission{
+    height: 300px;
+    padding: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    width: 77%;   
+    margin: auto;
+}
+#mission  h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.card{
+    display: inline-block;
+    border: 1px solid black;
+    /* box-shadow: 2px 2px #e9e9e9; */
+    border-radius: 8px;
+    width: 31%;
+    margin: 0px 8px;
+    height: 200px;
+}
+.card h3{
+    text-align: center;
+    margin: 13px auto;
+}
+#card1{
+    background-color:#e8ffff;
+} 
+#card2{
+    background-color: #ecffec;
+} 
+#card3{
+    background-color: #fff0fe;
+} 
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 130px;
+    padding: 10px 20px;
+}
+.card-img img{
+    height: inherit;
+}
+/* .card-content */
+#sponsersection{
+    height:250px;
+    background-color: rgb(233, 197, 191);    
+}
+#sponsersection h2{ 
+    text-align: center;
+    padding-top: 20px;
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.sponsers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    max-height: 1000px;
+    /* margin: 20px auto; */
+}
+.spimage{
+    height:30%;
+    margin: 40px;
+}
+#footer{
+    height:60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,57 @@
+doctype html 
+html
+    head 
+        style 
+            include ../static/style.css 
+body 
+    nav#navbar 
+        ul 
+            div#logo 
+                img(src="../static/logo.png", alt="Logo")
+                |ADA
+            li #[a(href='/') Home ]
+            li #[a(href='/') About] 
+            li #[a(href='/') Services]
+            li #[a(href='/') Plans]
+            li #[a(href='/') Contact Us]
+    //- h1 Dance Classes 
+    //- p Welcome to Anupma Dance Classes
+    section#introsection 
+        h1  Welcome to Anupma Dance Classes 
+        p Eat sleep Dance Repeat 
+    section#mission 
+        h2 Our Mission
+        div.card#card1 
+            h3  Dance Perfection 
+            div.card-box 
+                div.card-img 
+                    img(src="../static/dance2.png", alt="Dance-1")
+                div.card-content
+                    p This is the best dance academy of Jaipur.   
+        div.card#card2 
+            h3 Dance the  way you like
+            div.card-box 
+                div.card-img 
+                    img(src="../static/dance1.png", alt="Dance-1")
+                div.card-content
+                    p This is the best dance academy of Jaipur.            
+        div.card#card3 
+            h3 Better Learning
+            div.card-box 
+                div.card-img 
+                    img(src="../static/dance3.png", alt="Dance-1")
+                div.card-content
+                    p This is the best dance academy of Jaipur.             
+    section#sponsersection 
+        h2  Our Sponsers
+        div.sponsers 
+            img(src="static/LOGO_NIKE.png", alt="Nike" class="spimage")
+            img(src="static/Oracle_logo.png", alt="Oracle" class="spimage")
+            img(src="static/Google-logo.png", alt="Google" class="spimage")
+            img(src="static/Adidas-logo.png", alt="Adidas" class="spimage")
+    
+    footer#footer 
+        | Copyright @2022. AnupmaDanceAcademy.com | All Rights Reserved
+
+    script 
+        include ../static/index.js
